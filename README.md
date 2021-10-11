@@ -54,25 +54,64 @@ This repository contains an example of Development Test. implement React + Redux
 ## Tree Project <a name = "tree_project"></a>
 
 ```
-├─ src
-│  ├─ controllers
-│  │  └─ http
-│  │     └─ PokemonController.ts
-│  ├─ core
-│  │  ├─ entities
-│  │  │  └─ Pokemon.ts
-│  │  ├─ interactors
-│  │  │  ├─ index.ts
-│  │  │  └─ pokemonInteractor.ts
-│  │  └─ repositories
-│  │     └─ pokemonRepository.ts
-│  ├─ dataSources
-│  │  ├─ PokemonDataSource.ts
-│  │  └─ sequelize
-│  │     ├─ index.ts
-│  │     └─ PokemonModel.ts
-│  └─ server
-│     └─ index.ts
+└─ src
+   ├─ actions
+   │  ├─ basicActions
+   │  │  └─ index.js
+   │  ├─ flashMessages.js
+   │  └─ loginActions.js
+   ├─ App.test.js
+   ├─ components
+   │  ├─ App.js
+   │  ├─ Generic
+   │  │  ├─ FlashMessages
+   │  │  │  ├─ FlashTypes.js
+   │  │  │  └─ index.js
+   │  │  └─ InputForm.js
+   │  ├─ Home
+   │  │  └─ index.js
+   │  ├─ Layout
+   │  │  └─ NavBar
+   │  │     └─ index.js
+   │  ├─ Login
+   │  │  └─ index.js
+   │  ├─ Page404
+   │  │  └─ index.js
+   │  ├─ Products
+   │  │  ├─ FormProducts.js
+   │  │  └─ index.js
+   │  └─ User
+   │     └─ FormUser.js
+   ├─ const
+   │  ├─ actionsTypes.js
+   │  ├─ errorsField.js
+   │  └─ url.js
+   ├─ css
+   │  ├─ App.css
+   │  └─ index.css
+   ├─ index.js
+   ├─ reducers
+   │  ├─ basicReducer
+   │  │  └─ index.js
+   │  ├─ flashMessages.js
+   │  └─ loginReducer
+   │     └─ index.js
+   ├─ reportWebVitals.js
+   ├─ rootReducer.js
+   ├─ routes.js
+   ├─ setupTests.js
+   ├─ store.js
+   ├─ utils
+   │  ├─ index.js
+   │  └─ setAuthorizationToken.js
+   └─ validator
+      ├─ generic
+      │  └─ index.js
+      ├─ product
+      │  └─ index.js
+      └─ user
+         ├─ loginFormValidator.js
+         └─ singupFormValidator.js
 ```
 
 ## Getting Started <a name = "getting_started"></a>
