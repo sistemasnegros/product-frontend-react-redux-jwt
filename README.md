@@ -1,25 +1,144 @@
-# Getting Started with Create React App
+# product-frontend-react-redux-jwt
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="" rel="noopener">
+  <img width=600px  src="https://miro.medium.com/max/600/0*1p4U99DAhsOHqX-m.jpg" alt="Project logo"></a>
+ </a>
+</p>
 
-## Available Scripts
+<h3 align="center"> Back-End Full-Stack Development Test</h3>
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/sistemasnegros/product-frontend-react-redux-jwt/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/sistemasnegros/product-frontend-react-redux-jwt/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-Runs the app in the development mode.\
+</div>
+
+---
+
+<p align="center"> This repository contains an solution for Development Test.
+    <br> 
+</p>
+
+## Screenshots
+
+<p align="center">
+  <a href="" rel="noopener">
+  <img height=200px src="https://i.ibb.co/VDtsX0n/home.png" alt="porducts" border="0">
+  <img height=200px src="https://i.ibb.co/Nmrrjrw/Menu.png" alt="porducts" border="0">
+  <img height=200px src="https://i.ibb.co/mqdZdm9/Resgister.png" alt="porducts" border="0">
+  <img height=200px src="https://i.ibb.co/vjcHQ04/Login.png" alt="porducts" border="0">
+  <img height=200px src="https://i.ibb.co/P6HfkP3/porducts.png" alt="porducts" border="0">
+  <img height=200px src="https://i.ibb.co/VvJ7SB0/Create.png" alt="porducts" border="0">  
+  <img height=200px src="https://i.ibb.co/WKYCJn2/update.png" alt="porducts" border="0">
+  </a>
+ </a>
+</p>
+
+## Table of Contents
+
+- [About](#about)
+- [Tree Project](#tree_project)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+
+## About <a name = "about"></a>
+
+This repository contains an example of Development Test. implement React + Redux + React-router-dom + Jwt + Bootstrap. using Create React App.
+
+## Tree Project <a name = "tree_project"></a>
+
+```
+├─ src
+│  ├─ controllers
+│  │  └─ http
+│  │     └─ PokemonController.ts
+│  ├─ core
+│  │  ├─ entities
+│  │  │  └─ Pokemon.ts
+│  │  ├─ interactors
+│  │  │  ├─ index.ts
+│  │  │  └─ pokemonInteractor.ts
+│  │  └─ repositories
+│  │     └─ pokemonRepository.ts
+│  ├─ dataSources
+│  │  ├─ PokemonDataSource.ts
+│  │  └─ sequelize
+│  │     ├─ index.ts
+│  │     └─ PokemonModel.ts
+│  └─ server
+│     └─ index.ts
+```
+
+## Getting Started <a name = "getting_started"></a>
+
+### `Prerequisites.`
+
+```
+node v14.17.6
+```
+
+Run API [https://github.com/sistemasnegros/product-backend-api-hex-arch-express-types](https://github.com/sistemasnegros/product-backend-api-hex-arch-express-types)
+
+Create DB in the CLI mysql.
+
+### `Clone Repository.`
+
+```
+git clone https://github.com/sistemasnegros/product-frontend-react-redux-jwt
+```
+
+### `Install Dependencies.`
+
+```
+cd product-frontend-react-redux-jwt
+npm install
+```
+
+## Usage <a name = "usage"></a>
+
+### `Start the app in the development mode.`
+
+```
+npm start
+```
+
+Note: make sure the API is running. [http://localhost:3001](http://localhost:3001)
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
+### `Run test APP.`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```
+npm test
+```
+
+Outout Test OK
+
+```
+ PASS  src/App.test.js
+  √ renders Home Full-Stack (44 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.736 s
+Ran all test suites.
+```
+
+### `Build app for production`
+
+```
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +148,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## ✍️ Authors <a name = "authors"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@sistemasnegros](https://github.com/sistemasnegros) - Idea & Initial work

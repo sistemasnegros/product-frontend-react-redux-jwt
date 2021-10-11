@@ -1,0 +1,25 @@
+const ADD_FLASH_MESSAGE = 'ADD_FLASH_MESSAGE';
+const DEL_FLASH_MESSAGE = 'DEL_FLASH_MESSAGE';
+const SET_CURRENT_USER = 'SET_CURRENT_USER';
+
+// generic
+const ADD = 'ADD';
+const DELETE = 'DELETE';
+const EDIT = 'EDIT';
+const UPDATE = 'UPDATE';
+const SEARCH = 'SEARCH';
+const CLEAR = 'CLEAR';
+const GET_BY_ID = 'GET_BY_ID';
+
+export {
+  CLEAR,
+  ADD,
+  DELETE,
+  EDIT,
+  UPDATE,
+  SEARCH,
+  ADD_FLASH_MESSAGE,
+  DEL_FLASH_MESSAGE,
+  SET_CURRENT_USER,
+  GET_BY_ID,
+};
